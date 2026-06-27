@@ -1,9 +1,9 @@
 aprendiendo-bug-bounty/
 ├── README.md
 └── modulos/
-    ├── 00-introduccion-y-etica.md
+    ├── 00-introduccion.md
     ├── 01-fundamentos-web.md
-    ├── 02-laboratorio-y-herramientas.md
+    ├── 02-herramientas-laboratorio.md
     ├── 03-reconocimiento.md
     ├── 04-vulnerabilidades-comunes.md
-    └── 05-plataformas-y-reportes.md
+    └── 05-reportar-y-plataformas.md
