@@ -1,71 +1,79 @@
-# 🐞 Curso de Bug Bounty para Novatos
 
-Bienvenido/a. Este es un curso práctico y desde cero para iniciarte en el **bug bounty** y el **hacking ético**, pensado para personas sin experiencia previa.
+# 🐛 Curso de Bug Bounty para Novatos
 
-El objetivo no es solo "encontrar bugs", sino entender **cómo funciona la web por dentro**, desarrollar **mentalidad de atacante** y hacerlo siempre de forma **legal y responsable**.
-
----
-
-## ⚖️ Aviso legal y ético (LÉELO ANTES DE EMPEZAR)
-
-El hacking solo es legal cuando tienes **permiso explícito** sobre el objetivo. En este curso:
-
-- ✓ **SÍ** practicamos en laboratorios diseñados para ello (PortSwigger Web Security Academy, DVWA, TryHackMe, Hack The Box) y en programas de bug bounty con un **scope** (alcance) público y autorizado.
-- ✗ **NO** atacamos sistemas, webs o personas sin autorización por escrito. Hacerlo es **delito** en la mayoría de países, aunque sea "solo para probar".
-- 📜 Antes de tocar cualquier objetivo de un programa, **lee siempre su política** y respeta el scope, las reglas y los límites de rate.
-- 🤝 Si encuentras una vulnerabilidad, aplica **divulgación responsable**: repórtala por el canal oficial y no la hagas pública sin permiso.
-
-> Regla de oro: **"Si no tengo permiso, no lo toco."**
+> Un curso en español, desde cero, para personas que nunca han tocado la ciberseguridad y quieren entender cómo funciona el *bug bounty* de forma **ética y legal**.
 
 ---
 
-## 🎯 ¿Qué vas a aprender?
+## 👋 ¿Para quién es este curso?
 
-- Qué es el bug bounty y cómo viven de esto los investigadores de seguridad.
-- Cómo funciona la web: HTTP, DNS, navegador, cookies, sesiones.
-- Montar tu propio laboratorio de pruebas seguro.
-- Hacer reconocimiento (recon) de un objetivo.
-- Identificar y explotar las vulnerabilidades web más comunes (OWASP Top 10).
-- Escribir reportes profesionales que te paguen.
-- Tu roadmap para seguir creciendo.
+Para ti, si:
 
----
+- Nunca has hecho ciberseguridad y partes de **cero absoluto**.
+- Tienes curiosidad por saber cómo "se rompen" (y se arreglan) las aplicaciones web.
+- Quieres aprender de forma **ordenada, ética y legal**, sin meterte en líos.
+- Prefieres explicaciones sencillas, con analogías y ejemplos, antes que jerga incomprensible.
 
-## 🧰 Requisitos previos
-
-No necesitas saber hackear, pero te ayudará tener:
-
-- Un ordenador (Windows, macOS o Linux) con permiso de administrador.
-- Ganas de leer en inglés (la mayoría de recursos buenos están en inglés).
-- Nociones básicas de usar la terminal (las repasaremos).
-- **Mucha paciencia y curiosidad.** El bug bounty es 90% frustración y 10% euforia.
+**No necesitas** saber programar para empezar. Te ayudará, pero iremos explicando lo necesario por el camino.
 
 ---
 
-## ▪ Programa del curso
+## 🎯 ¿Qué es el Bug Bounty?
 
-| # | Módulo | Contenido |
-|---|--------|-----------|
-| 0 | [Introducción, mentalidad y ética](modulos/00-introduccion-y-etica.md) | Qué es el bug bounty, marco legal, divulgación responsable |
-| 1 | [Fundamentos web](modulos/01-fundamentos-web.md) | HTTP, DNS, navegador, cookies y sesiones |
-| 2 | [Laboratorio y herramientas](modulos/02-laboratorio-y-herramientas.md) | Burp Suite, labs seguros, configuración |
-| 3 | [Reconocimiento (recon)](modulos/03-reconocimiento.md) | Subdominios, fingerprinting, superficie de ataque |
-| 4 | [Vulnerabilidades comunes](modulos/04-vulnerabilidades-comunes.md) | XSS, SQLi, IDOR, CSRF, SSRF y más |
-| 5 | [Plataformas, reportes y siguientes pasos](modulos/05-plataformas-y-reportes.md) | HackerOne, Bugcrowd, cómo reportar, roadmap |
+El **bug bounty** ("recompensa por errores") es un acuerdo en el que las empresas **invitan** a personas de fuera (los *hunters* o cazadores de fallos) a buscar vulnerabilidades de seguridad en sus sistemas, **a cambio de una recompensa** (dinero, reconocimiento o ambos).
+
+La idea es sencilla: es mejor que un fallo lo encuentre alguien honesto que avise, a que lo encuentre un criminal que lo aproveche.
+
+Lo importante: **siempre con permiso**. Buscar fallos sin autorización es ilegal. En este curso aprenderás a hacerlo dentro de la ley.
 
 ---
 
-## 🗺️ Cómo usar este curso
+## 🗺️ Ruta de aprendizaje
 
-1. Ve **en orden**. Cada módulo asume lo aprendido en el anterior.
-2. **No te saltes los laboratorios.** Leer no es aprender; aprender es hacer.
-3. Cuando termines un módulo, intenta resolver al menos un lab de PortSwigger relacionado.
-4. Lleva notas. Crea tu propio "segundo cerebro" de hacking (Obsidian, Notion, un .md...).
+Sigue los módulos **en orden**. Cada uno se apoya en el anterior.
+
+| Módulo | Tema | Qué aprenderás |
+|--------|------|----------------|
+| [00 - Introducción](modulos/00-introduccion.md) | Qué es el bug bounty, ética y legalidad | La mentalidad correcta y las reglas del juego |
+| [01 - Fundamentos web](modulos/01-fundamentos-web.md) | Cómo funciona internet y la web | HTTP, DNS, cliente-servidor, cookies |
+| [02 - Herramientas y laboratorio](modulos/02-herramientas-laboratorio.md) | Tu equipo de trabajo | Burp Suite, navegador, montar un laboratorio seguro |
+| [03 - Reconocimiento](modulos/03-reconocimiento.md) | Recopilar información | Subdominios, enumeración, mapear el objetivo |
+| [04 - Vulnerabilidades comunes](modulos/04-vulnerabilidades-comunes.md) | Los fallos más típicos | OWASP Top 10: XSS, SQLi, IDOR, CSRF... |
+| [05 - Reportar y plataformas](modulos/05-reportar-y-plataformas.md) | Cómo ganar tus primeras recompensas | Escribir reportes, HackerOne, Bugcrowd, siguientes pasos |
 
 ---
 
-## → Empieza aquí
+## ⚖️ Aviso legal importante (LÉELO)
 
-👉 [Módulo 0 - Introducción, mentalidad y ética](modulos/00-introduccion-y-etica.md)
+Este curso es **exclusivamente educativo** y promueve el *hacking ético*.
 
-¡Mucha suerte y feliz hacking (ético)! 🎩
+- **Nunca** pruebes técnicas contra sistemas para los que no tengas permiso explícito por escrito.
+- Practica **solo** en: tus propios sistemas, laboratorios diseñados para ello, o programas de bug bounty cuyo *scope* (alcance) te autorice.
+- Acceder a sistemas sin autorización es **delito** en casi todos los países (en España, art. 197 bis y 264 del Código Penal; en otros países hay leyes equivalentes).
+- El autor y este material **no se hacen responsables** del mal uso que se haga de esta información.
+
+> Regla de oro: **si no tienes permiso, no lo toques.** 🛑
+
+---
+
+## 🧠 Cómo sacarle el máximo partido
+
+1. **No tengas prisa.** Mejor entender bien un módulo que correr por todos.
+2. **Practica en laboratorios.** Leer no basta; hay que ensuciarse las manos (en entornos legales).
+3. **Toma notas.** Anota lo que aprendes con tus propias palabras.
+4. **Repite.** Es normal no entenderlo a la primera. Vuelve atrás sin vergüenza.
+
+---
+
+## ▪ Glosario rápido (para empezar)
+
+- **Vulnerabilidad:** un fallo de seguridad que se puede aprovechar.
+- **Exploit:** la técnica o código que aprovecha una vulnerabilidad.
+- **Scope (alcance):** la lista de sistemas que TIENES permiso de probar.
+- **Hunter / investigador:** la persona que busca los fallos.
+- **Payload:** el dato o "carga" que envías para provocar el fallo.
+- **Recon (reconocimiento):** la fase de recopilar información sobre el objetivo.
+
+---
+
+¿Listo? Empieza por el **[Módulo 00 - Introducción](modulos/00-introduccion.md)**. →
